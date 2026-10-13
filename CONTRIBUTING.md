@@ -7,7 +7,7 @@ Thank you for contributing to the SmallPict SDK ecosystem! All official SDKs sha
 ## 📜 Contract-First Development Workflow
 
 1. **OpenAPI as Single Source of Truth:**
-   Never add, modify, or remove an API endpoint, request parameter, or response field in any language SDK without first updating and verifying **`smallPict-api/docs/openapi.yaml`**.
+   Never add, modify, or remove an API endpoint, request parameter, or response field in any language SDK without first updating and verifying **`smallpict-api/docs/openapi.yaml`**.
 2. **Synchronized Semantic Versioning:**
    SDK versions follow Semantic Versioning (`MAJOR.MINOR.PATCH`).
    - `PATCH`: Bug fixes, security patches, performance improvements.

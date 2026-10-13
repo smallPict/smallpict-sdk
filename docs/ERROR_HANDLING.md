@@ -73,7 +73,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/tuxnoob/smallpict-go"
+	"github.com/smallpict/smallpict-go"
 )
 
 result, err := client.Optimize(ctx, data, options)

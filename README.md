@@ -1,7 +1,7 @@
 # SmallPict Official SDK Ecosystem
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![OpenAPI 3.1.0](https://img.shields.io/badge/OpenAPI-3.1.0-green.svg)](../smallPict-api/docs/openapi.yaml)
+[![OpenAPI 3.1.0](https://img.shields.io/badge/OpenAPI-3.1.0-green.svg)](../smallpict-api/docs/openapi.yaml)
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success.svg)](#)
 
 Welcome to the **SmallPict SDK Ecosystem** — official developer tools for integrating the [SmallPict Image Optimization API](https://smallpict.app) across **7 programming languages**.
@@ -15,10 +15,10 @@ Welcome to the **SmallPict SDK Ecosystem** — official developer tools for inte
 | **Node.js / TypeScript** | [`smallpict-node/`](smallpict-node/) | [`@smallpict/sdk`](https://npmjs.com/package/@smallpict/sdk) | [npm](https://npmjs.com/package/@smallpict/sdk) | [![npm](https://img.shields.io/npm/v/@smallpict/sdk.svg)](https://npmjs.com/package/@smallpict/sdk) |
 | **Python** | [`smallpict-python/`](smallpict-python/) | [`smallpict`](https://pypi.org/project/smallpict) | [PyPI](https://pypi.org/project/smallpict) | [![PyPI](https://img.shields.io/pypi/v/smallpict.svg)](https://pypi.org/project/smallpict) |
 | **PHP** | [`smallpict-php/`](smallpict-php/) | [`smallpict/smallpict-php`](https://packagist.org/packages/smallpict/smallpict-php) | [Packagist](https://packagist.org/packages/smallpict/smallpict-php) | [![Packagist](https://img.shields.io/packagist/v/smallpict/smallpict-php.svg)](https://packagist.org/packages/smallpict/smallpict-php) |
-| **Go** | [`smallpict-go/`](smallpict-go/) | [`github.com/tuxnoob/smallpict-go`](https://pkg.go.dev/github.com/tuxnoob/smallpict-go) | [pkg.go.dev](https://pkg.go.dev/github.com/tuxnoob/smallpict-go) | [![Go Reference](https://pkg.go.dev/badge/github.com/tuxnoob/smallpict-go.svg)](https://pkg.go.dev/github.com/tuxnoob/smallpict-go) |
+| **Go** | [`smallpict-go/`](smallpict-go/) | [`github.com/smallpict/smallpict-go`](https://pkg.go.dev/github.com/smallpict/smallpict-go) | [pkg.go.dev](https://pkg.go.dev/github.com/smallpict/smallpict-go) | [![Go Reference](https://pkg.go.dev/badge/github.com/smallpict/smallpict-go.svg)](https://pkg.go.dev/github.com/smallpict/smallpict-go) |
 | **Rust** | [`smallpict-rust/`](smallpict-rust/) | [`smallpict`](https://crates.io/crates/smallpict) | [crates.io](https://crates.io/crates/smallpict) | [![crates.io](https://img.shields.io/crates/v/smallpict.svg)](https://crates.io/crates/smallpict) |
 | **Ruby** | [`smallpict-ruby/`](smallpict-ruby/) | [`smallpict`](https://rubygems.org/gems/smallpict) | [RubyGems](https://rubygems.org/gems/smallpict) | [![Gem Version](https://img.shields.io/gem/v/smallpict.svg)](https://rubygems.org/gems/smallpict) |
-| **Java / Kotlin** | [`smallpict-java/`](https://github.com/tuxnoob/smallpict-java) | [`io.github.tuxnoob:smallpict-java`](https://central.sonatype.com) | [Maven Central](https://central.sonatype.com) | [![Maven Central](https://img.shields.io/maven-central/v/io.github.tuxnoob/smallpict-java.svg)](https://central.sonatype.com) |
+| **Java / Kotlin** | [`smallpict-java/`](https://github.com/smallPict/smallpict-java) | [`io.github.tuxnoob:smallpict-java`](https://central.sonatype.com) | [Maven Central](https://central.sonatype.com) | [![Maven Central](https://img.shields.io/maven-central/v/io.github.tuxnoob/smallpict-java.svg)](https://central.sonatype.com) |
 
 ---
 

@@ -11,7 +11,7 @@ This guide provides a side-by-side comparison of getting started with the offici
 | **Node.js / TS** | `@smallpict/sdk` | [npm](https://npmjs.com/package/@smallpict/sdk) | Node 18+ / Bun / Deno | Native `fetch` + Web Crypto |
 | **Python** | `smallpict` | [PyPI](https://pypi.org/project/smallpict) | Python 3.9+ | `httpx` (Sync & Async) |
 | **PHP** | `smallpict/smallpict-php` | [Packagist](https://packagist.org/packages/smallpict/smallpict-php) | PHP 7.4 - 8.4+ | Native cURL / PSR-18 |
-| **Go** | `github.com/tuxnoob/smallpict-go` | [pkg.go.dev](https://pkg.go.dev/github.com/tuxnoob/smallpict-go) | Go 1.21+ | Go `net/http` Standard Lib |
+| **Go** | `github.com/smallpict/smallpict-go` | [pkg.go.dev](https://pkg.go.dev/github.com/smallpict/smallpict-go) | Go 1.21+ | Go `net/http` Standard Lib |
 | **Rust** | `smallpict` | [crates.io](https://crates.io/crates/smallpict) | Rust 1.75+ (MSRV) | `reqwest` + `rustls-tls` |
 | **Ruby** | `smallpict` | [RubyGems](https://rubygems.org/gems/smallpict) | Ruby 3.0+ | `Faraday` + OpenSSL |
 | **Java / Kotlin** | `com.smallpict:smallpict-java` | [Maven Central](https://search.maven.org) | Java 17+ | Java `HttpClient` + Jackson |
@@ -98,7 +98,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/tuxnoob/smallpict-go"
+	"github.com/smallpict/smallpict-go"
 )
 
 func main() {

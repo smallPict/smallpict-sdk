@@ -98,7 +98,7 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/tuxnoob/smallpict-go"
+	"github.com/smallpict/smallpict-go"
 )
 
 func main() {

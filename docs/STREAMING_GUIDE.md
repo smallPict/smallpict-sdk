@@ -39,7 +39,7 @@ package main
 import (
 	"context"
 	"os"
-	"github.com/tuxnoob/smallpict-go"
+	"github.com/smallpict/smallpict-go"
 )
 
 func main() {
