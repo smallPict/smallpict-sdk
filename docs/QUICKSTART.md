@@ -14,7 +14,7 @@ This guide provides a side-by-side comparison of getting started with the offici
 | **Go** | `github.com/smallpict/smallpict-go` | [pkg.go.dev](https://pkg.go.dev/github.com/smallpict/smallpict-go) | Go 1.21+ | Go `net/http` Standard Lib |
 | **Rust** | `smallpict` | [crates.io](https://crates.io/crates/smallpict) | Rust 1.75+ (MSRV) | `reqwest` + `rustls-tls` |
 | **Ruby** | `smallpict` | [RubyGems](https://rubygems.org/gems/smallpict) | Ruby 3.0+ | `Faraday` + OpenSSL |
-| **Java / Kotlin** | `com.smallpict:smallpict-java` | [Maven Central](https://search.maven.org) | Java 17+ | Java `HttpClient` + Jackson |
+| **Java / Kotlin** | `app.smallpict:smallpict-java` | [Maven Central](https://search.maven.org) | Java 17+ | Java `HttpClient` + Jackson |
 
 ---
 
