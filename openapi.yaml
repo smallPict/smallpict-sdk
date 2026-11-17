@@ -16,12 +16,11 @@ info:
     url: https://smallpict.app
   license:
     name: Proprietary / Commercial
+    identifier: LicenseRef-SmallPict-Commercial
 
 servers:
   - url: https://api.smallpict.app/v1
     description: Production API Server
-  - url: http://localhost:8080/v1
-    description: Local Development & Mock Server
 
 security:
   - HMACAuth: []
@@ -199,6 +198,18 @@ paths:
       responses:
         '200':
           $ref: '#/paths/~1optimize/post/responses/200'
+        '400':
+          $ref: '#/components/responses/400BadRequest'
+        '401':
+          $ref: '#/components/responses/401Unauthorized'
+        '402':
+          $ref: '#/components/responses/402QuotaExceeded'
+        '403':
+          $ref: '#/components/responses/403Forbidden'
+        '429':
+          $ref: '#/components/responses/429RateLimited'
+        '500':
+          $ref: '#/components/responses/500InternalError'
 
   /plugin/quota:
     get:
@@ -209,6 +220,10 @@ paths:
       responses:
         '200':
           $ref: '#/paths/~1quota/get/responses/200'
+        '401':
+          $ref: '#/components/responses/401Unauthorized'
+        '403':
+          $ref: '#/components/responses/403Forbidden'
 
   /plugin/auth/request-otp:
     post:
