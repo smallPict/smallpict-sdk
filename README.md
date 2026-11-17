@@ -44,6 +44,11 @@ Welcome to the **SmallPict SDK Ecosystem** — official developer tools for inte
 
 ## 🧪 Master Contract Verification
 
+The API contract is available in [`openapi.yaml`](openapi.yaml) and mirrored in
+[`docs/openapi.yaml`](docs/openapi.yaml). Keep both files identical when updating it.
+The published server list targets production. For local development or mock testing,
+override the client's base URL with `http://localhost:8080/v1`.
+
 Run the automated contract validator locally:
 
 ```bash
